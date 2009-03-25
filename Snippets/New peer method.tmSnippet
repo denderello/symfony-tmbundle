@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>public static function ${1:retrieve}${2:Objects}($3)
+{
+	${4://code}
+}</string>
+	<key>name</key>
+	<string>New peer method</string>
+	<key>scope</key>
+	<string>source.php</string>
+	<key>tabTrigger</key>
+	<string>peerm</string>
+	<key>uuid</key>
+	<string>677B5776-E21F-41AA-8A48-60D5AFF0CB01</string>
+</dict>
+</plist>

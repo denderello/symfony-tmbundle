@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>\$${1:form}['${2:field}']-&gt;renderLabel($3)$0</string>
+	<key>name</key>
+	<string>Render form field label</string>
+	<key>scope</key>
+	<string>source.php</string>
+	<key>tabTrigger</key>
+	<string>tffrl</string>
+	<key>uuid</key>
+	<string>A4A0EBCE-4BB7-42C7-B461-958B0B6E2E40</string>
+</dict>
+</plist>

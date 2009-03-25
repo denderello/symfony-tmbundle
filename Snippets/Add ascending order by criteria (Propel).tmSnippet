@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>\$c-&gt;addAscendingOrderByColumn(${1:column});$0</string>
+	<key>name</key>
+	<string>Add ascending order by criteria (Propel)</string>
+	<key>scope</key>
+	<string>source.php</string>
+	<key>tabTrigger</key>
+	<string>critoa</string>
+	<key>uuid</key>
+	<string>C884FDED-FB47-483A-8D69-57B1D970F25E</string>
+</dict>
+</plist>

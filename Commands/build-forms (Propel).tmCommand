@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>beforeRunningCommand</key>
+	<string>nop</string>
+	<key>command</key>
+	<string>echo "&lt;pre&gt;"
+${TM_PROJECT_DIRECTORY}/symfony propel:build-forms
+echo "&lt;/pre&gt;"</string>
+	<key>input</key>
+	<string>none</string>
+	<key>keyEquivalent</key>
+	<string>^s</string>
+	<key>name</key>
+	<string>build-forms (Propel)</string>
+	<key>output</key>
+	<string>showAsHTML</string>
+	<key>scope</key>
+	<string>source.php, text.html, source.yaml</string>
+	<key>uuid</key>
+	<string>19F7376F-5FF2-4E17-82E5-935118A22A98</string>
+</dict>
+</plist>

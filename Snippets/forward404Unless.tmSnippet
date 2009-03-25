@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>\$this-&gt;forward404Unless(${1:condition});$0</string>
+	<key>name</key>
+	<string>forward404Unless</string>
+	<key>scope</key>
+	<string>source.php</string>
+	<key>tabTrigger</key>
+	<string>fwun404</string>
+	<key>uuid</key>
+	<string>32D3477C-CE44-4867-9162-46F0FDEF4FF2</string>
+</dict>
+</plist>

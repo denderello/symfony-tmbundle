@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>beforeRunningCommand</key>
+	<string>nop</string>
+	<key>command</key>
+	<string>. "$TM_SUPPORT_PATH/lib/html.sh"
+htmlHeader "symfony cc"
+importCSS "${TM_BUNDLE_SUPPORT}/css/symfony.css"
+tag "h1" "symfony version" "head"
+beginTag "pre" "code"
+
+${TM_PROJECT_DIRECTORY}/symfony -V
+
+endTag
+htmlFooter</string>
+	<key>input</key>
+	<string>none</string>
+	<key>keyEquivalent</key>
+	<string>^s</string>
+	<key>name</key>
+	<string>symfony version</string>
+	<key>output</key>
+	<string>showAsHTML</string>
+	<key>scope</key>
+	<string>source.php, text.html, source.yaml</string>
+	<key>uuid</key>
+	<string>DBCF0D3A-5EB2-4DA9-8036-164D96EBEAB4</string>
+</dict>
+</plist>
