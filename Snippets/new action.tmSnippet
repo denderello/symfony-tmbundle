@@ -9,7 +9,7 @@
  */
 public function execute${1/(.)(.*)/\u$1\L$2\E/} (sfWebRequest \$request)
 {
-	${2://code}$0
+	${0://code}
 }</string>
 	<key>name</key>
 	<string>New action</string>

@@ -3,7 +3,8 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>\$this-&gt;getRequestParameter('${1:id}')$0</string>
+	<string>\$this-&gt;getRequestParameter('${1:id}')$0
+${TM_CURRENT_LINE:0:TM_LINE_INDEX}</string>
 	<key>name</key>
 	<string>getRequestParameter</string>
 	<key>scope</key>

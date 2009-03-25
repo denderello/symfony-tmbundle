@@ -1,0 +1,79 @@
+/* ================================= */
+/* = Common Stuff for all Commands = */
+/* ================================= */
+
+.default {
+  background-color: #747A89;
+  color:#ccc;
+}
+.default a {
+	color: rgb(192,135,30);
+	text-decoration: none;
+}
+
+.default a:hover {
+	text-decoration: underline;
+}
+
+.default h1 {
+	color: #fff;
+	text-shadow:  #0c122c 3px 3px 5px;
+}
+
+.default h2 {
+	text-shadow:  #0c122c 3px 3px 5px;
+}
+
+.default h3 {
+	text-shadow:  #0c122c 3px 3px 5px;
+}
+
+.default blockquote {
+	border-left: 4px solid #E6E5DD;
+}
+.default code {
+  color: #C1DE77;
+}
+
+.default pre {
+	background-color: black;
+	border: 1px solid #AAAAAA;
+	color: white;
+}
+
+.default .pro_table {
+	border-top: 1px solid #616465;
+	border-left: 1px solid #616465;
+}
+.default .pro_table th {
+	background: #1C1C1C;
+	border-bottom: 1px solid #616465;
+	border-right: 1px solid #616465;
+}
+.default .pro_table td {
+	border-bottom: 1px solid #616465;
+	border-right: 1px solid #616465;
+}
+.default .footnote:before {
+	color: #888;
+}
+.default .footnote:after {
+	color: #888;
+}
+
+.default div.footnotes {
+   background: #111;
+}
+
+
+.default td, .dark th {
+	color: #EEE;
+}
+
+.default caption, .dark label {
+	color: #CCC;
+}
+
+.default .alternate {
+	background-color: #111;
+}%
