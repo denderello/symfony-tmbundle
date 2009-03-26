@@ -3,21 +3,14 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>/**
- * Executes ${1:index} action
- *
- */
-public function execute${1/(.)(.*)/\u$1\L$2\E/} (sfWebRequest \$request)
-{
-	${0://code}
-}</string>
+	<string>\$this-&gt;getPartial('${1:partial}'${2:, array($0)});</string>
 	<key>name</key>
-	<string>New action</string>
+	<string>getPartial</string>
 	<key>scope</key>
 	<string>source.php</string>
 	<key>tabTrigger</key>
-	<string>exe</string>
+	<string>gpa</string>
 	<key>uuid</key>
-	<string>D519F32F-49C7-4250-8105-B79513A1B325</string>
+	<string>FB90C13C-DCBF-4162-AA69-865275C10FA7</string>
 </dict>
 </plist>

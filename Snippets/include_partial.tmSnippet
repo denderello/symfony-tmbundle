@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>&lt;?php echo include_partial('${1:module}/${2:partial}'${3:, array($0)}); ?&gt;</string>
+	<key>name</key>
+	<string>include_partial</string>
+	<key>scope</key>
+	<string>text.html</string>
+	<key>tabTrigger</key>
+	<string>ip</string>
+	<key>uuid</key>
+	<string>EC4B3E10-459B-4E56-9B36-4C5BEF6DB777</string>
+</dict>
+</plist>
