@@ -1,2 +1,36 @@
 The symfony Textmate bundle
 ===========================
+
+Installation
+------------
+
+1. Create a bundle directoy in your home directory if you don't have one already.
+
+        mkdir -p ~/Library/Application\ Support/TextMate/Bundles
+
+2. Go to the bundle directoy in your home.
+
+        cd ~/Library/Application\ Support/TextMate/Bundles
+
+3. Clone a copy from the github repository
+
+        git clone git://github.com/denderello/symfony-tmbundle.git "symfony.tmbundle"
+
+4. Reload your Bundles in TextMate
+
+Updating
+--------
+
+1. Go to the symfony bundle directoy in your home.
+
+        cd ~/Library/Application\ Support/TextMate/Bundles/symfony.tmbundle
+
+2. Pull the newest version from the github repository
+
+        git pull
+
+3. Reload your Bundles in TextMate
+
+Credits
+-------
+Thanks for the work of 'Dr Nic' from the rails community. Without his work on the rails bundle I still wouldn't know how to create a bundle. Also many thanks to 'meandmymonkey' from the symfony community. He created the images which you can see in the html popups of the symfony commands.
