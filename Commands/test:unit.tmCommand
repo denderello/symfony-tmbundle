@@ -6,18 +6,18 @@
 	<string>nop</string>
 	<key>command</key>
 	<string>RUBYLIB="$TM_BUNDLE_SUPPORT/lib:$RUBYLIB"
-"${TM_RUBY:=ruby}" -- "${TM_BUNDLE_SUPPORT}/bin/symfony_cli_helper.rb" test:functional</string>
+"${TM_RUBY:=ruby}" -- "${TM_BUNDLE_SUPPORT}/bin/symfony_cli_helper.rb" test:unit</string>
 	<key>input</key>
 	<string>none</string>
 	<key>keyEquivalent</key>
 	<string>^s</string>
 	<key>name</key>
-	<string>test functional</string>
+	<string>test:unit</string>
 	<key>output</key>
 	<string>showAsHTML</string>
 	<key>scope</key>
 	<string>source.php, text.html, source.yaml</string>
 	<key>uuid</key>
-	<string>D4C6E8A3-B7EE-472D-AD41-A9CD5D469AE9</string>
+	<string>F1D5C9A4-439D-447E-9B3A-E122E4F16C30</string>
 </dict>
 </plist>

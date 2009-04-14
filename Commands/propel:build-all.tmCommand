@@ -6,18 +6,18 @@
 	<string>nop</string>
 	<key>command</key>
 	<string>RUBYLIB="$TM_BUNDLE_SUPPORT/lib:$RUBYLIB"
-"${TM_RUBY:=ruby}" -- "${TM_BUNDLE_SUPPORT}/bin/symfony_cli_helper.rb" test:all</string>
+"${TM_RUBY:=ruby}" -- "${TM_BUNDLE_SUPPORT}/bin/symfony_cli_helper.rb" propel:build-all</string>
 	<key>input</key>
 	<string>none</string>
 	<key>keyEquivalent</key>
 	<string>^s</string>
 	<key>name</key>
-	<string>test all</string>
+	<string>propel:build-all</string>
 	<key>output</key>
 	<string>showAsHTML</string>
 	<key>scope</key>
 	<string>source.php, text.html, source.yaml</string>
 	<key>uuid</key>
-	<string>708869E7-8B3F-4E33-A2FB-4F56E09A4390</string>
+	<string>7C3C2999-8DB0-42E5-AE98-3F3E83E5312F</string>
 </dict>
 </plist>
