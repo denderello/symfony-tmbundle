@@ -27,7 +27,7 @@ HTML_TEMPLATE = <<-HTML
   <script type="text/javascript" charset="utf-8">
     var image_path = "file://<%= support_path %>/images/";
   </script>
-  <%= html_head %>
+  <%= html_header %>
 </head>
 <body id="tm_webpreview_body" class="<%= html_theme %>">
   <div id="tm_webpreview_header">
@@ -66,7 +66,7 @@ def selected_theme
   $? == 0 ? res : 'bright'
 end
 
-def html_head(options = { })
+def html_header(options = { })
   window_title = options[:window_title] || options[:title]    || 'Window Title'
   page_title   = options[:page_title]   || options[:title]    || 'Page Title'
   sub_title    = options[:sub_title]    || ENV['TM_FILENAME'] || 'untitled'
@@ -93,11 +93,11 @@ def html_head(options = { })
     bundle_styles << style if File.directory?(bundle_support + '/css/' + style)
   } unless bundle_support.nil?
 
-  html_head    = options[:html_head]    || ''
+  html_header    = options[:html_header]    || ''
 
   if options[:fix_href] && File.exist?(ENV['TM_FILEPATH'].to_s)
     require "cgi"
-    html_head << "<base href='tm-file://#{CGI.escape(ENV['TM_FILEPATH'])}'>"
+    html_header << "<base href='tm-file://#{CGI.escape(ENV['TM_FILEPATH'])}'>"
 	end
 
   support_path   = support_path.sub(/ /, '%20')
@@ -121,13 +121,13 @@ def html_head(options = { })
 end
 
 # compatibility function
-def html_header(tm_html_title, tm_html_lang = "", tm_extra_head = "", tm_window_title = nil, tm_fix_href = nil)
-  puts html_head(:title => tm_html_title, :sub_title => tm_html_lang, :html_head => tm_extra_head,
+def html_headerer(tm_html_title, tm_html_lang = "", tm_extra_head = "", tm_window_title = nil, tm_fix_href = nil)
+  puts html_header(:title => tm_html_title, :sub_title => tm_html_lang, :html_header => tm_extra_head,
                  :window_title => tm_window_title, :fix_href => tm_fix_href)
 end
 
 def html_footer
-	puts <<-HTML
+	return <<-HTML
 	</div>
 </body>
 </html>
