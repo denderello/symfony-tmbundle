@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>beforeRunningCommand</key>
+	<string>nop</string>
+	<key>command</key>
+	<string>RUBYLIB="$TM_BUNDLE_SUPPORT/lib:$RUBYLIB"
+"${TM_RUBY:=ruby}" -- "${TM_BUNDLE_SUPPORT}/bin/symfony_navigator.rb"</string>
+	<key>fallbackInput</key>
+	<string>line</string>
+	<key>input</key>
+	<string>none</string>
+	<key>keyEquivalent</key>
+	<string>^f</string>
+	<key>name</key>
+	<string>navigator</string>
+	<key>output</key>
+	<string>discard</string>
+	<key>scope</key>
+	<string>source.php, text.html, source.yaml</string>
+	<key>uuid</key>
+	<string>0029DE75-0E96-4457-BEFE-700BF24182A2</string>
+</dict>
+</plist>
