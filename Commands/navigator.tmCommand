@@ -14,7 +14,7 @@
 	<key>keyEquivalent</key>
 	<string>^f</string>
 	<key>name</key>
-	<string>navigator</string>
+	<string>goto</string>
 	<key>output</key>
 	<string>discard</string>
 	<key>scope</key>

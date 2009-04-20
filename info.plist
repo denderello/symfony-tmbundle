@@ -14,12 +14,11 @@
 			<string>------------------------------------</string>
 			<string>AD188C1A-5918-45C5-99AA-8EB9D17C0D96</string>
 			<string>05F24DFE-FFFC-4FC4-B2C2-E9D943F813E4</string>
+			<string>0029DE75-0E96-4457-BEFE-700BF24182A2</string>
 			<string>------------------------------------</string>
 			<string>A14489CE-8C65-4372-A690-DB914E0F616A</string>
 			<string>645D4F27-9837-4EF6-8389-D4D3F1F18D88</string>
 			<string>23DF58E0-858B-44CE-8A81-FF31591A36A6</string>
-			<string>87912C68-44B1-4009-ABF3-CCF1A10F8137</string>
-			<string>76E5A628-C840-4D15-9455-E02980E1E054</string>
 		</array>
 		<key>submenus</key>
 		<dict>
@@ -91,20 +90,6 @@
 				</array>
 				<key>name</key>
 				<string>Propel</string>
-			</dict>
-			<key>76E5A628-C840-4D15-9455-E02980E1E054</key>
-			<dict>
-				<key>items</key>
-				<array/>
-				<key>name</key>
-				<string>Navigation</string>
-			</dict>
-			<key>87912C68-44B1-4009-ABF3-CCF1A10F8137</key>
-			<dict>
-				<key>items</key>
-				<array/>
-				<key>name</key>
-				<string>Forms</string>
 			</dict>
 			<key>8888AB23-2FBB-4817-93FA-B16D579ED681</key>
 			<dict>
