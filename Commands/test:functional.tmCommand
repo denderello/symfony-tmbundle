@@ -5,8 +5,18 @@
 	<key>beforeRunningCommand</key>
 	<string>nop</string>
 	<key>command</key>
-	<string>RUBYLIB="$TM_BUNDLE_SUPPORT/lib:$RUBYLIB"
-"${TM_RUBY:=ruby}" -- "${TM_BUNDLE_SUPPORT}/bin/symfony_cli_helper.rb" test:functional</string>
+	<string>cd $TM_PROJECT_DIRECTORY
+
+app=$(CocoaDialog inputbox --title "Execute Functional Tests" \
+    --informative-text "Enter application name:" \
+    --button1 "Okay" --button2 "Cancel")
+
+[[ $(head -n1 &lt;&lt;&lt;"$app") == "2" ]] &amp;&amp; exit_discard
+
+app=$(tail -n1 &lt;&lt;&lt;"$app")
+
+RUBYLIB="$TM_BUNDLE_SUPPORT/lib:$RUBYLIB"
+"${TM_RUBY:=ruby}" -- "${TM_BUNDLE_SUPPORT}/bin/symfony_cli_helper.rb" test:functional $app</string>
 	<key>input</key>
 	<string>none</string>
 	<key>keyEquivalent</key>

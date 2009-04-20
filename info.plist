@@ -19,6 +19,9 @@
 			<string>A14489CE-8C65-4372-A690-DB914E0F616A</string>
 			<string>645D4F27-9837-4EF6-8389-D4D3F1F18D88</string>
 			<string>23DF58E0-858B-44CE-8A81-FF31591A36A6</string>
+			<string>87912C68-44B1-4009-ABF3-CCF1A10F8137</string>
+			<string>76E5A628-C840-4D15-9455-E02980E1E054</string>
+			<string>0029DE75-0E96-4457-BEFE-700BF24182A2</string>
 		</array>
 		<key>submenus</key>
 		<dict>
@@ -31,6 +34,7 @@
 					<string>87723185-EBC3-4AC8-AF20-3A60CE021BD8</string>
 					<string>3C76DFF3-8CF2-494D-8DBF-239A0776DA07</string>
 					<string>5A508FF4-293C-40B3-BEC8-2256403D54F6</string>
+					<string>A3422065-E7A7-4DB3-B1C0-7776EEA5FEFC</string>
 					<string>623B489C-4122-4DE3-A390-E6BF1CC8448F</string>
 					<string>399CEFF0-D20B-4FEA-9959-3938173B695C</string>
 					<string>F361FF04-41E6-4DAE-A09A-6A6AB967C345</string>
@@ -91,10 +95,30 @@
 				<key>name</key>
 				<string>Propel</string>
 			</dict>
+			<key>76E5A628-C840-4D15-9455-E02980E1E054</key>
+			<dict>
+				<key>items</key>
+				<array/>
+				<key>name</key>
+				<string>Navigation</string>
+			</dict>
+			<key>87912C68-44B1-4009-ABF3-CCF1A10F8137</key>
+			<dict>
+				<key>items</key>
+				<array>
+					<string>4A8B45B3-BA32-47C0-A4B8-FE29131F36A7</string>
+					<string>2D9146C7-F796-4025-8990-EB9E1C292B32</string>
+				</array>
+				<key>name</key>
+				<string>Forms</string>
+			</dict>
 			<key>8888AB23-2FBB-4817-93FA-B16D579ED681</key>
 			<dict>
 				<key>items</key>
 				<array>
+					<string>2C248FD0-04A0-4CCC-97F8-C6BAA5290672</string>
+					<string>B4D359DE-5152-4C95-AEAB-FB8FEFB43C0F</string>
+					<string>72F1F235-F701-4DCE-A702-9FBF6DFE8307</string>
 					<string>78EA90D7-64EB-473F-9413-5BD7383C9C3E</string>
 				</array>
 				<key>name</key>
@@ -105,6 +129,7 @@
 				<key>items</key>
 				<array>
 					<string>DBCF0D3A-5EB2-4DA9-8036-164D96EBEAB4</string>
+					<string>0997B67A-C804-48BD-9AE7-D825ACAD8A5B</string>
 					<string>8E3772D7-1B6F-4651-95EC-17423551725F</string>
 					<string>3BC6FADC-9062-4B35-8B0C-0E3199E7F62C</string>
 					<string>A5FE79EF-AC85-4094-BEF8-48E0A5F6B9E9</string>
@@ -146,6 +171,7 @@
 					<string>7C3C2999-8DB0-42E5-AE98-3F3E83E5312F</string>
 					<string>19F7376F-5FF2-4E17-82E5-935118A22A98</string>
 					<string>3A188B4C-37EE-44CC-AA08-FF8FFD6D298B</string>
+					<string>AB3B2241-0D26-411A-AB3A-A86D4974A20E</string>
 				</array>
 				<key>name</key>
 				<string>Propel</string>
@@ -211,11 +237,14 @@
 		<string>78E58A35-8415-4944-9D39-456AE76CA178</string>
 		<string>FB90C13C-DCBF-4162-AA69-865275C10FA7</string>
 		<string>33A137EB-1B02-4BA9-9018-3EEB0ECE85FF</string>
+		<string>2D9146C7-F796-4025-8990-EB9E1C292B32</string>
+		<string>4A8B45B3-BA32-47C0-A4B8-FE29131F36A7</string>
 		<string>07780A76-8959-45B0-9658-298A18B3A086</string>
 		<string>3C76DFF3-8CF2-494D-8DBF-239A0776DA07</string>
 		<string>5A508FF4-293C-40B3-BEC8-2256403D54F6</string>
 		<string>87723185-EBC3-4AC8-AF20-3A60CE021BD8</string>
 		<string>623B489C-4122-4DE3-A390-E6BF1CC8448F</string>
+		<string>A3422065-E7A7-4DB3-B1C0-7776EEA5FEFC</string>
 		<string>399CEFF0-D20B-4FEA-9959-3938173B695C</string>
 		<string>EC4B3E10-459B-4E56-9B36-4C5BEF6DB777</string>
 		<string>80BC8622-82DC-4A8B-804D-873A5844C1A2</string>
@@ -230,11 +259,16 @@
 		<string>EDC1026F-926F-40B2-92E9-DB9A98C57A09</string>
 		<string>677B5776-E21F-41AA-8A48-60D5AFF0CB01</string>
 		<string>DBCF0D3A-5EB2-4DA9-8036-164D96EBEAB4</string>
+		<string>0997B67A-C804-48BD-9AE7-D825ACAD8A5B</string>
 		<string>A5FE79EF-AC85-4094-BEF8-48E0A5F6B9E9</string>
+		<string>2C248FD0-04A0-4CCC-97F8-C6BAA5290672</string>
+		<string>B4D359DE-5152-4C95-AEAB-FB8FEFB43C0F</string>
+		<string>72F1F235-F701-4DCE-A702-9FBF6DFE8307</string>
 		<string>78EA90D7-64EB-473F-9413-5BD7383C9C3E</string>
 		<string>7C3C2999-8DB0-42E5-AE98-3F3E83E5312F</string>
 		<string>19F7376F-5FF2-4E17-82E5-935118A22A98</string>
 		<string>3A188B4C-37EE-44CC-AA08-FF8FFD6D298B</string>
+		<string>AB3B2241-0D26-411A-AB3A-A86D4974A20E</string>
 		<string>708869E7-8B3F-4E33-A2FB-4F56E09A4390</string>
 		<string>F1D5C9A4-439D-447E-9B3A-E122E4F16C30</string>
 		<string>D4C6E8A3-B7EE-472D-AD41-A9CD5D469AE9</string>
