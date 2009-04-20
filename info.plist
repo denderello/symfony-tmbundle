@@ -73,7 +73,6 @@
 			<dict>
 				<key>items</key>
 				<array>
-					<string>677B5776-E21F-41AA-8A48-60D5AFF0CB01</string>
 					<string>AFE3A17A-A77A-4F03-8D22-59B1FADFB5C2</string>
 					<string>6745D8A5-666A-49B1-8752-71B27CD5A503</string>
 				</array>
@@ -84,6 +83,7 @@
 			<dict>
 				<key>items</key>
 				<array>
+					<string>677B5776-E21F-41AA-8A48-60D5AFF0CB01</string>
 					<string>F7242317-8A51-4C47-933B-C6215C9E5B86</string>
 					<string>728B6AE4-541B-4D20-82CA-4A0DC9A8ADF9</string>
 					<string>C884FDED-FB47-483A-8D69-57B1D970F25E</string>
@@ -181,7 +181,16 @@
 			<key>AFE3A17A-A77A-4F03-8D22-59B1FADFB5C2</key>
 			<dict>
 				<key>items</key>
-				<array/>
+				<array>
+					<string>BA098BD4-ACBE-494D-924A-C80F44098D01</string>
+					<string>88DFAA28-4287-45B5-931B-131D9FE71759</string>
+					<string>4FCCA3DD-68D2-4073-8CAD-7119D634170C</string>
+					<string>856A928F-5BCB-4D0F-B543-AC425A38D861</string>
+					<string>93E8D3E5-2408-455B-B5A7-20352DAD893D</string>
+					<string>C6B72774-52EB-4F16-80A4-72E5EA04C408</string>
+					<string>132213C2-3927-4DEA-A1E8-328D23A818A7</string>
+					<string>CBF6AA73-9C0F-4D10-9DAD-08246759FF89</string>
+				</array>
 				<key>name</key>
 				<string>Doctrine</string>
 			</dict>
@@ -260,6 +269,14 @@
 		<string>F6BA9504-017D-46B6-AC71-FBEDB9323E0E</string>
 		<string>EDC1026F-926F-40B2-92E9-DB9A98C57A09</string>
 		<string>677B5776-E21F-41AA-8A48-60D5AFF0CB01</string>
+		<string>BA098BD4-ACBE-494D-924A-C80F44098D01</string>
+		<string>88DFAA28-4287-45B5-931B-131D9FE71759</string>
+		<string>93E8D3E5-2408-455B-B5A7-20352DAD893D</string>
+		<string>C6B72774-52EB-4F16-80A4-72E5EA04C408</string>
+		<string>CBF6AA73-9C0F-4D10-9DAD-08246759FF89</string>
+		<string>132213C2-3927-4DEA-A1E8-328D23A818A7</string>
+		<string>4FCCA3DD-68D2-4073-8CAD-7119D634170C</string>
+		<string>856A928F-5BCB-4D0F-B543-AC425A38D861</string>
 		<string>DBCF0D3A-5EB2-4DA9-8036-164D96EBEAB4</string>
 		<string>A5FE79EF-AC85-4094-BEF8-48E0A5F6B9E9</string>
 		<string>8E3772D7-1B6F-4651-95EC-17423551725F</string>

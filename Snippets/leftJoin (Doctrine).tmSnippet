@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>leftJoin('${1:relationColumn} ${2:${1/(?:.*\.)?(.).*/\L$1/}}')$0</string>
+	<key>name</key>
+	<string>leftJoin (Doctrine)</string>
+	<key>scope</key>
+	<string>source.php</string>
+	<key>tabTrigger</key>
+	<string>ljoin</string>
+	<key>uuid</key>
+	<string>4FCCA3DD-68D2-4073-8CAD-7119D634170C</string>
+</dict>
+</plist>
