@@ -5,7 +5,7 @@
 	<key>content</key>
 	<string>\$this-&gt;validatorSchema['${1:field}'] = $2;$0</string>
 	<key>name</key>
-	<string>access validatorSchema in form copy</string>
+	<string>access validatorSchema in form</string>
 	<key>scope</key>
 	<string>source.php</string>
 	<key>tabTrigger</key>

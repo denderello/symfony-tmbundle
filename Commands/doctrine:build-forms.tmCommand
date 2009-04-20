@@ -5,27 +5,19 @@
 	<key>beforeRunningCommand</key>
 	<string>nop</string>
 	<key>command</key>
-	<string>cd $TM_PROJECT_DIRECTORY
-
-name=$(CocoaDialog inputbox --title "Generate Application" \
-    --informative-text "Enter application name:" \
-    --button1 "Okay" --button2 "Cancel")
-
-[[ $(head -n1 &lt;&lt;&lt;"$app") == "2" ]] &amp;&amp; exit_discard
-
-RUBYLIB="$TM_BUNDLE_SUPPORT/lib:$RUBYLIB"
-"${TM_RUBY:=ruby}" -- "${TM_BUNDLE_SUPPORT}/bin/symfony_cli_helper.rb" generate:app $name</string>
+	<string>RUBYLIB="$TM_BUNDLE_SUPPORT/lib:$RUBYLIB"
+"${TM_RUBY:=ruby}" -- "${TM_BUNDLE_SUPPORT}/bin/symfony_cli_helper.rb" doctrine:build-forms</string>
 	<key>input</key>
 	<string>none</string>
 	<key>keyEquivalent</key>
 	<string>^s</string>
 	<key>name</key>
-	<string>generate:app</string>
+	<string>doctrine:build-forms</string>
 	<key>output</key>
 	<string>showAsHTML</string>
 	<key>scope</key>
 	<string>source.php, text.html, source.yaml</string>
 	<key>uuid</key>
-	<string>8E3772D7-1B6F-4651-95EC-17423551725F</string>
+	<string>B4D359DE-5152-4C95-AEAB-FB8FEFB43C0F</string>
 </dict>
 </plist>
