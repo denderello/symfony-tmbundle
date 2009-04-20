@@ -10,7 +10,7 @@
 	<key>input</key>
 	<string>none</string>
 	<key>keyEquivalent</key>
-	<string>^s</string>
+	<string>~p</string>
 	<key>name</key>
 	<string>propel:build-forms</string>
 	<key>output</key>

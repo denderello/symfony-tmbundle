@@ -10,7 +10,7 @@
 	<key>input</key>
 	<string>none</string>
 	<key>keyEquivalent</key>
-	<string>^s</string>
+	<string>~d</string>
 	<key>name</key>
 	<string>doctrine:build-all</string>
 	<key>output</key>
