@@ -12,6 +12,9 @@ class SymfonyNavigator
       if /.*function\ execute.*/.match @line
         self.prepareGotoView
       end
+      if /.*getTable\([\'\"](.*)[\'\"]\).*/.match @line
+        self.prepareGotoDoctrineModel
+      end
     end
     if /.*templates/.match @dir
       self.prepareGotoAction
@@ -27,6 +30,11 @@ class SymfonyNavigator
   def prepareGotoAction
     modulePath  = /(.*)\/templates/.match(@dir)[1]
     @aim = "#{modulePath}/actions/actions.class.php"
+  end
+
+  def prepareGotoDoctrineModel
+    modelName = /.*getTable\([\'\"](.*)[\'\"]\).*/.match(@line)[1]
+    @aim = "#{@proj}/lib/model/doctrine/#{modelName}.class.php"
   end
 
   def goto
