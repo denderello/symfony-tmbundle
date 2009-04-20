@@ -12,7 +12,7 @@
 	<key>keyEquivalent</key>
 	<string>^s</string>
 	<key>name</key>
-	<string>test unit</string>
+	<string>test:unit</string>
 	<key>output</key>
 	<string>showAsHTML</string>
 	<key>scope</key>

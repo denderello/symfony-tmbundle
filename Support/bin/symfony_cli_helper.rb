@@ -1,15 +1,28 @@
 require "#{ENV["TM_BUNDLE_SUPPORT"]}/lib/web_preview"
 
-task = ARGV.shift
+class SymfonyCliHelper
+  def initialize(args)
+    @task = args[0]
+    @args = args.join(' ')
+  end
 
-command = "#{ENV["TM_PROJECT_DIRECTORY"]}/symfony #{task}"
+  def run
+    @output = `#{ENV["TM_PROJECT_DIRECTORY"]}/symfony #{@args}`
+  end
 
-puts html_head(:window_title => "symfony #{task} — symfony CLI", :page_title => "symfony #{task}", :sub_title => 'symfony CLI')
+  def outputAsHtml
+    puts html_header(
+      :window_title => "symfony #{@task} — symfony CLI",
+      :page_title   => "symfony #{@args}",
+      :sub_title    => 'symfony CLI'
+    )
+    puts "<pre>"
+    puts @output
+    puts "</pre>"
+    puts html_footer
+  end
+end
 
-output = `#{command}`
-
-puts "<pre>"
-puts output
-puts "</pre>"
-
-html_footer
+sfCliHelper = SymfonyCliHelper.new ARGV
+sfCliHelper.run
+sfCliHelper.outputAsHtml
