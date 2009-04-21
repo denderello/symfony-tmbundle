@@ -33,4 +33,6 @@ Updating
 
 Credits
 -------
-Thanks for the work of 'Dr Nic' from the rails community. Without his work on the rails bundle I still wouldn't know how to create a bundle. Also many thanks to 'meandmymonkey' from the symfony community. He created the images which you can see in the html popups of the symfony commands.
+Thanks for the work of 'Dr Nic' from the rails community. Without his work on the rails bundle I still wouldn't know how to create a bundle. Also many thanks to
+'meandmymonkey' from the symfony community. He created the images which you can see in the html popups of the symfony commands. Big thanks to user 'everzet'.
+He improved the html output windows and added the dialogs to the commands. And last but not least many thanks to 'fabpot'. He created the first version of the bundle.
