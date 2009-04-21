@@ -10,7 +10,10 @@
 command=$(CocoaDialog inputbox --title "Run symfony CLI" \
     --informative-text "Enter symfony command:" \
     --button1 "Okay" --button2 "Cancel")
-[[ $(head -n1 &lt;&lt;&lt;"$command") == "2" ]] &amp;&amp; exit_discard
+if [[ $(head -n1 &lt;&lt;&lt;"$command") == "2" ]]; then
+	echo "&lt;script type="text/javascript"&gt;window.close()&lt;/script&gt;"
+	exit
+fi
 command=$(tail -n1 &lt;&lt;&lt;"$command")
 
 RUBYLIB="$TM_BUNDLE_SUPPORT/lib:$RUBYLIB"

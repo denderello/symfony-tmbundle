@@ -7,14 +7,17 @@
 	<key>command</key>
 	<string>cd $TM_PROJECT_DIRECTORY
 
-name=$(CocoaDialog inputbox --title "Generate Application" \
+app=$(CocoaDialog inputbox --title "Generate Application" \
     --informative-text "Enter application name:" \
     --button1 "Okay" --button2 "Cancel")
-
-[[ $(head -n1 &lt;&lt;&lt;"$app") == "2" ]] &amp;&amp; exit_discard
+if [[ $(head -n1 &lt;&lt;&lt;"$app") == "2" ]]; then
+	echo "&lt;script type="text/javascript"&gt;window.close()&lt;/script&gt;"
+	exit
+fi
+app=$(tail -n1 &lt;&lt;&lt;"$app")
 
 RUBYLIB="$TM_BUNDLE_SUPPORT/lib:$RUBYLIB"
-"${TM_RUBY:=ruby}" -- "${TM_BUNDLE_SUPPORT}/bin/symfony_cli_helper.rb" generate:app $name</string>
+"${TM_RUBY:=ruby}" -- "${TM_BUNDLE_SUPPORT}/bin/symfony_cli_helper.rb" generate:app $app</string>
 	<key>input</key>
 	<string>none</string>
 	<key>keyEquivalent</key>

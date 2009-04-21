@@ -10,21 +10,23 @@
 app=$(CocoaDialog inputbox --title "Generate Module" \
     --informative-text "Enter application name:" \
     --button1 "Okay" --button2 "Cancel")
-
-[[ $(head -n1 &lt;&lt;&lt;"$app") == "2" ]] &amp;&amp; exit_discard
-
+if [[ $(head -n1 &lt;&lt;&lt;"$app") == "2" ]]; then
+	echo "&lt;script type="text/javascript"&gt;window.close()&lt;/script&gt;"
+	exit
+fi
 app=$(tail -n1 &lt;&lt;&lt;"$app")
 
-name=$(CocoaDialog inputbox --title "Generate Module" \
+module=$(CocoaDialog inputbox --title "Generate Module" \
     --informative-text "Enter module name:" \
     --button1 "Okay" --button2 "Cancel")
-
-[[ $(head -n1 &lt;&lt;&lt;"$name") == "2" ]] &amp;&amp; exit_discard
-
-name=$(tail -n1 &lt;&lt;&lt;"$name")
+if [[ $(head -n1 &lt;&lt;&lt;"$module") == "2" ]]; then
+	echo "&lt;script type="text/javascript"&gt;window.close()&lt;/script&gt;"
+	exit
+fi
+module=$(tail -n1 &lt;&lt;&lt;"$module")
 
 RUBYLIB="$TM_BUNDLE_SUPPORT/lib:$RUBYLIB"
-"${TM_RUBY:=ruby}" -- "${TM_BUNDLE_SUPPORT}/bin/symfony_cli_helper.rb" generate:module $app $name</string>
+"${TM_RUBY:=ruby}" -- "${TM_BUNDLE_SUPPORT}/bin/symfony_cli_helper.rb" generate:module $app $module</string>
 	<key>input</key>
 	<string>none</string>
 	<key>keyEquivalent</key>

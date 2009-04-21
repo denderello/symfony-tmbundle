@@ -8,19 +8,26 @@
 	<string>cd $TM_PROJECT_DIRECTORY
 
 app=$(CocoaDialog inputbox --title "Generate admin" \
-    --informative-text "Enter application name:" \
-    --button1 "Okay" --button2 "Cancel")
-[[ $(head -n1 &lt;&lt;&lt;"$app") == "2" ]] &amp;&amp; exit_discard
+	--informative-text "Enter application name:" \
+	--button1 "Okay" --button2 "Cancel")
+if [[ $(head -n1 &lt;&lt;&lt;"$app") == "2" ]]; then
+	echo "&lt;script type="text/javascript"&gt;window.close()&lt;/script&gt;"
+	exit
+fi
 app=$(tail -n1 &lt;&lt;&lt;"$app")
 
 model=$(CocoaDialog inputbox --title "Generate admin" \
-    --informative-text "Enter model name:" \
-    --button1 "Okay" --button2 "Cancel")
-[[ $(head -n1 &lt;&lt;&lt;"$model") == "2" ]] &amp;&amp; exit_discard
+	--informative-text "Enter model name:" \
+	--button1 "Okay" --button2 "Cancel")
+if [[ $(head -n1 &lt;&lt;&lt;"$model") == "2" ]]; then
+	echo "&lt;script type="text/javascript"&gt;window.close()&lt;/script&gt;"
+	exit
+fi
 model=$(tail -n1 &lt;&lt;&lt;"$model")
 
 RUBYLIB="$TM_BUNDLE_SUPPORT/lib:$RUBYLIB"
-"${TM_RUBY:=ruby}" -- "${TM_BUNDLE_SUPPORT}/bin/symfony_cli_helper.rb" doctrine:generate-admin $app $model</string>
+"${TM_RUBY:=ruby}" -- "${TM_BUNDLE_SUPPORT}/bin/symfony_cli_helper.rb" doctrine:generate-admin $app $model
+</string>
 	<key>input</key>
 	<string>none</string>
 	<key>keyEquivalent</key>
