@@ -10,7 +10,7 @@
 	<key>input</key>
 	<string>none</string>
 	<key>keyEquivalent</key>
-	<string>^s</string>
+	<string>~t</string>
 	<key>name</key>
 	<string>test:unit</string>
 	<key>output</key>

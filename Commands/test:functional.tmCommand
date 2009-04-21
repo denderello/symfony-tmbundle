@@ -22,7 +22,7 @@ RUBYLIB="$TM_BUNDLE_SUPPORT/lib:$RUBYLIB"
 	<key>input</key>
 	<string>none</string>
 	<key>keyEquivalent</key>
-	<string>^s</string>
+	<string>~t</string>
 	<key>name</key>
 	<string>test:functional</string>
 	<key>output</key>
