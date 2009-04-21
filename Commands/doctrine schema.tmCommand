@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>beforeRunningCommand</key>
+	<string>nop</string>
+	<key>command</key>
+	<string>`open txmt://open/?url=file://${TM_PROJECT_DIRECTORY}/config/doctrine/schema.yml`</string>
+	<key>input</key>
+	<string>none</string>
+	<key>keyEquivalent</key>
+	<string>~d</string>
+	<key>name</key>
+	<string>doctrine schema</string>
+	<key>output</key>
+	<string>discard</string>
+	<key>scope</key>
+	<string>source.php, text.html, source.yaml</string>
+	<key>uuid</key>
+	<string>9F2E0D42-7834-4E8A-BD2B-BE3A56D10410</string>
+</dict>
+</plist>
