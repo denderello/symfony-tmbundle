@@ -26,7 +26,9 @@ fi
 module=$(tail -n1 &lt;&lt;&lt;"$module")
 
 RUBYLIB="$TM_BUNDLE_SUPPORT/lib:$RUBYLIB"
-"${TM_RUBY:=ruby}" -- "${TM_BUNDLE_SUPPORT}/bin/symfony_cli_helper.rb" generate:module $app $module</string>
+"${TM_RUBY:=ruby}" -- "${TM_BUNDLE_SUPPORT}/bin/symfony_cli_helper.rb" generate:module $app $module
+
+rescan_project</string>
 	<key>input</key>
 	<string>none</string>
 	<key>keyEquivalent</key>

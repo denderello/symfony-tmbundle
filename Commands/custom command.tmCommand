@@ -17,7 +17,9 @@ fi
 command=$(tail -n1 &lt;&lt;&lt;"$command")
 
 RUBYLIB="$TM_BUNDLE_SUPPORT/lib:$RUBYLIB"
-"${TM_RUBY:=ruby}" -- "${TM_BUNDLE_SUPPORT}/bin/symfony_cli_helper.rb" $command</string>
+"${TM_RUBY:=ruby}" -- "${TM_BUNDLE_SUPPORT}/bin/symfony_cli_helper.rb" $command
+
+rescan_project</string>
 	<key>input</key>
 	<string>none</string>
 	<key>keyEquivalent</key>

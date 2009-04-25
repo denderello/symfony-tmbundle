@@ -27,7 +27,8 @@ model=$(tail -n1 &lt;&lt;&lt;"$model")
 
 RUBYLIB="$TM_BUNDLE_SUPPORT/lib:$RUBYLIB"
 "${TM_RUBY:=ruby}" -- "${TM_BUNDLE_SUPPORT}/bin/symfony_cli_helper.rb" doctrine:generate-admin $app $model
-</string>
+
+rescan_project</string>
 	<key>input</key>
 	<string>none</string>
 	<key>keyEquivalent</key>
