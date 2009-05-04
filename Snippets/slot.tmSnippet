@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>&lt;?php slot('${1:slotName}') ?&gt;
+	$0
+&lt;?php end_slot() ?&gt;</string>
+	<key>name</key>
+	<string>slot</string>
+	<key>scope</key>
+	<string>text.html</string>
+	<key>tabTrigger</key>
+	<string>slot</string>
+	<key>uuid</key>
+	<string>953370F6-BC62-465B-8BB2-705EFF6A56EE</string>
+</dict>
+</plist>
