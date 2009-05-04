@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>${1:foreignClass}:
+	local:         ${2:localColumnName}${3:
+	onUpdate:      ${4:CASCADE}}${5:
+	onDelete:      ${6:CASCADE}}
+$0</string>
+	<key>name</key>
+	<string>simple relation definition (Doctrine Schema)</string>
+	<key>scope</key>
+	<string>source.yaml</string>
+	<key>tabTrigger</key>
+	<string>srel</string>
+	<key>uuid</key>
+	<string>7FE3085E-5701-493D-9B65-4255B4A4B093</string>
+</dict>
+</plist>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>${1:columnName}:
+	type:           ${2:integer}${3:
+	primary:        true}${4:
+	autoincrement:  true}${5:
+	unique:         true}${6:
+	notnull:        true}${7:
+	default:        ${8:value}}
+$0</string>
+	<key>name</key>
+	<string>column (Doctrine Schema)</string>
+	<key>scope</key>
+	<string>source.yaml</string>
+	<key>tabTrigger</key>
+	<string>col</string>
+	<key>uuid</key>
+	<string>DB7B01E8-57E4-4F35-B2C8-111797BBF082</string>
+</dict>
+</plist>
