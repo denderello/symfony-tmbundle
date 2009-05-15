@@ -3,17 +3,14 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>id:
-	type:           integer
-	primary:        true
-	autoincrement:  true$0</string>
+	<string>unique:					true$0</string>
 	<key>name</key>
-	<string>id (Doctrine Schema)</string>
+	<string>unique (Doctrine Schema)</string>
 	<key>scope</key>
 	<string>source.yaml</string>
 	<key>tabTrigger</key>
-	<string>id</string>
+	<string>uni</string>
 	<key>uuid</key>
-	<string>24028939-0CF8-4566-9164-AD6FD3DEB339</string>
+	<string>CFBAB505-4A23-4A21-B231-89E4841E01E6</string>
 </dict>
 </plist>

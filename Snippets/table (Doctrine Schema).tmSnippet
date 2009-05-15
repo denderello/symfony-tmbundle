@@ -4,9 +4,11 @@
 <dict>
 	<key>content</key>
 	<string>${1:tableName}:${2:
-	actAs:	[${3:Timestampable}]}
+	actAs:${3:	[${4:Timestampable}]}}
 	columns:
-		$0</string>
+		$0
+	relations:
+		</string>
 	<key>name</key>
 	<string>table (Doctrine Schema)</string>
 	<key>scope</key>

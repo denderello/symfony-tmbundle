@@ -3,17 +3,16 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>id:
-	type:           integer
-	primary:        true
-	autoincrement:  true$0</string>
+	<string>&lt;?php if (\$sf_user-&gt;hasFlash('${1:flashName}')): ?&gt;
+	&lt;?php echo \$sf_user-&gt;getFlash('$1') ?&gt;
+&lt;?php endif; ?&gt;</string>
 	<key>name</key>
-	<string>id (Doctrine Schema)</string>
+	<string>flash</string>
 	<key>scope</key>
-	<string>source.yaml</string>
+	<string>text.html</string>
 	<key>tabTrigger</key>
-	<string>id</string>
+	<string>flash</string>
 	<key>uuid</key>
-	<string>24028939-0CF8-4566-9164-AD6FD3DEB339</string>
+	<string>BCCDD4CC-DC59-4868-87DB-22C3F7B21A2A</string>
 </dict>
 </plist>

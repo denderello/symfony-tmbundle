@@ -4,13 +4,7 @@
 <dict>
 	<key>content</key>
 	<string>${1:columnName}:
-	type:           ${2:integer}${3:
-	primary:        true}${4:
-	autoincrement:  true}${5:
-	unique:         true}${6:
-	notnull:        true}${7:
-	default:        ${8:value}}
-$0</string>
+	type:           ${2:integer}$0</string>
 	<key>name</key>
 	<string>column (Doctrine Schema)</string>
 	<key>scope</key>

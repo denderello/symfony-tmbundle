@@ -3,15 +3,14 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>relations:
-	$0</string>
+	<string>notnull:				true$0</string>
 	<key>name</key>
-	<string>relations (Doctrine Schema)</string>
+	<string>notnull (Doctrine Schema)</string>
 	<key>scope</key>
 	<string>source.yaml</string>
 	<key>tabTrigger</key>
-	<string>rel</string>
+	<string>nnull</string>
 	<key>uuid</key>
-	<string>ADC6223F-9909-4BAA-A44E-9BFFBCC0F9B2</string>
+	<string>A6355942-6201-42DD-9C8F-1C7C8476A688</string>
 </dict>
 </plist>

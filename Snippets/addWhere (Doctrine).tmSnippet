@@ -3,17 +3,14 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>id:
-	type:           integer
-	primary:        true
-	autoincrement:  true$0</string>
+	<string>addWhere('${1:column}', ${2:value})$0</string>
 	<key>name</key>
-	<string>id (Doctrine Schema)</string>
+	<string>addWhere (Doctrine)</string>
 	<key>scope</key>
-	<string>source.yaml</string>
+	<string>source.php</string>
 	<key>tabTrigger</key>
-	<string>id</string>
+	<string>adwhere</string>
 	<key>uuid</key>
-	<string>24028939-0CF8-4566-9164-AD6FD3DEB339</string>
+	<string>F97EB933-6A97-4187-A2B8-D2918B407578</string>
 </dict>
 </plist>

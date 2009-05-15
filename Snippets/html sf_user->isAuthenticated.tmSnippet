@@ -3,17 +3,16 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>id:
-	type:           integer
-	primary:        true
-	autoincrement:  true$0</string>
+	<string>&lt;?php if (\$sf_user-&gt;isAuthenticated()): ?&gt;
+	$0
+&lt;?php endif ?&gt;</string>
 	<key>name</key>
-	<string>id (Doctrine Schema)</string>
+	<string>html sf_user-&gt;isAuthenticated</string>
 	<key>scope</key>
-	<string>source.yaml</string>
+	<string>text.html</string>
 	<key>tabTrigger</key>
-	<string>id</string>
+	<string>isauth</string>
 	<key>uuid</key>
-	<string>24028939-0CF8-4566-9164-AD6FD3DEB339</string>
+	<string>AFCE7F26-5FAB-4B9F-BC0C-14944A4A9E76</string>
 </dict>
 </plist>

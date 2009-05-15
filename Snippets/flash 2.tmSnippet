@@ -3,17 +3,14 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>id:
-	type:           integer
-	primary:        true
-	autoincrement:  true$0</string>
+	<string>\$this-&gt;getUser()-&gt;setFlash('${1:name}', '${2:value}');</string>
 	<key>name</key>
-	<string>id (Doctrine Schema)</string>
+	<string>flash</string>
 	<key>scope</key>
-	<string>source.yaml</string>
+	<string>source.php</string>
 	<key>tabTrigger</key>
-	<string>id</string>
+	<string>sflash</string>
 	<key>uuid</key>
-	<string>24028939-0CF8-4566-9164-AD6FD3DEB339</string>
+	<string>2C4E6794-7136-4000-9B4D-CCC700D6215F</string>
 </dict>
 </plist>

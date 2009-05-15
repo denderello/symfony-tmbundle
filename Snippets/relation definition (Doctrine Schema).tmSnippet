@@ -4,18 +4,17 @@
 <dict>
 	<key>content</key>
 	<string>${1:relationName}:
-	class:         ${2:foreignClass}
-	local:         ${3:localColumnName}
-	foreign:       ${4:foreignColumnName}${5:
-	refClass:      ${6:referenceClass}}
-	foreignAlias:  ${7:alias}
-$0</string>
+	class:          ${2:foreignClass}
+	local:          ${3:localColumnName}
+	foreign:        ${4:foreignColumnName}${5:
+	refClass:       ${6:referenceClass}}
+	foreignAlias:   ${7:alias}$0</string>
 	<key>name</key>
 	<string>full relation definition (Doctrine Schema)</string>
 	<key>scope</key>
 	<string>source.yaml</string>
 	<key>tabTrigger</key>
-	<string>frel</string>
+	<string>rel</string>
 	<key>uuid</key>
 	<string>03E0E328-4BA2-4EBD-A923-13702D12E476</string>
 </dict>

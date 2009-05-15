@@ -4,10 +4,8 @@
 <dict>
 	<key>content</key>
 	<string>${1:foreignClass}:
-	local:         ${2:localColumnName}${3:
-	onUpdate:      ${4:CASCADE}}${5:
-	onDelete:      ${6:CASCADE}}
-$0</string>
+	local:          ${2:localColumnName}${3:
+	onDelete:       ${4:CASCADE}}$0</string>
 	<key>name</key>
 	<string>simple relation definition (Doctrine Schema)</string>
 	<key>scope</key>

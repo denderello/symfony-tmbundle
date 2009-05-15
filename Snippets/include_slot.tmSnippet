@@ -11,7 +11,7 @@
 	<key>scope</key>
 	<string>text.html</string>
 	<key>tabTrigger</key>
-	<string>is</string>
+	<string>islot</string>
 	<key>uuid</key>
 	<string>F4A6EB2C-15F5-450E-8EC4-D5D08DE6BC5C</string>
 </dict>

@@ -3,17 +3,14 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>id:
-	type:           integer
-	primary:        true
-	autoincrement:  true$0</string>
+	<string>\$this-&gt;getUser()-&gt;isAuthenticated()</string>
 	<key>name</key>
-	<string>id (Doctrine Schema)</string>
+	<string>getUser-&gt;isAuthenticated</string>
 	<key>scope</key>
-	<string>source.yaml</string>
+	<string>source.php</string>
 	<key>tabTrigger</key>
-	<string>id</string>
+	<string>isauth</string>
 	<key>uuid</key>
-	<string>24028939-0CF8-4566-9164-AD6FD3DEB339</string>
+	<string>34AEC809-B5FE-419F-858D-AA9796749672</string>
 </dict>
 </plist>

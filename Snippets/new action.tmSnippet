@@ -5,6 +5,7 @@
 	<key>content</key>
 	<string>/**
  * Executes ${1:index} action
+ *
  * @param sfRequest \$request A request object
  */
 public function execute${1/(.)(.*)/\u$1\L$2\E/}(sfWebRequest \$request)
