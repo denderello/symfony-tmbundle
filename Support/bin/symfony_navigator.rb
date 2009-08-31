@@ -8,38 +8,18 @@ class SymfonyNavigator
 
     case comnd
       when "actions"
-        if targs.size > 1
-          @aim = "#{@proj}/apps/#{targs[0]}/modules/#{targs[1]}/actions/actions.class.php"
-        else
-          @aim = "#{@proj}/apps/frontend/modules/#{targs[0]}/actions/actions.class.php"
-        end
+        @aim = "#{@proj}/apps/#{targs[0]}/modules/#{targs[1]}/actions/actions.class.php"
       when "view"
-        if targs.size > 2
-          if targs[1] == "global"
-            @aim = "#{@proj}/apps/#{targs[0]}/templates/#{targs[2]}.php"
-          else
-            @aim = "#{@proj}/apps/#{targs[0]}/modules/#{targs[1]}/templates/#{targs[2]}Success.php"
-          end
+        if targs[1] == "global"
+          @aim = "#{@proj}/apps/#{targs[0]}/templates/#{targs[2]}.php"
         else
-          if targs[0] == "global"
-            @aim = "#{@proj}/apps/frontend/templates/#{targs[1]}.php"
-          else
-            @aim = "#{@proj}/apps/frontend/modules/#{targs[0]}/templates/#{targs[1]}Success.php"
-          end
+          @aim = "#{@proj}/apps/#{targs[0]}/modules/#{targs[1]}/templates/#{targs[2]}Success.php"
         end
       when "partial"
-        if targs.size > 2
-          if targs[1] == "global"
-            @aim = "#{@proj}/apps/#{targs[0]}/templates/_#{targs[2]}.php"
-          else
-            @aim = "#{@proj}/apps/#{targs[0]}/modules/#{targs[1]}/templates/_#{targs[2]}.php"
-          end
+        if targs[1] == "global"
+          @aim = "#{@proj}/apps/#{targs[0]}/templates/_#{targs[2]}.php"
         else
-          if targs[0] == "global"
-            @aim = "#{@proj}/apps/frontend/templates/_#{targs[1]}.php"
-          else
-            @aim = "#{@proj}/apps/frontend/modules/#{targs[0]}/templates/_#{targs[1]}.php"
-          end
+          @aim = "#{@proj}/apps/#{targs[0]}/modules/#{targs[1]}/templates/_#{targs[2]}.php"
         end
       when "form"
         if targs.size > 1

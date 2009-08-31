@@ -31,8 +31,50 @@ Updating
 
 3. Reload your Bundles in TextMate
 
+Using GoTo
+----------
+
+1. GoTo action is opening on ctrl+f key press
+2. GoTo action is input box, that can recieve commands:
+
+        // go to the apps/APP/modules/MODULE/actions/actions.class.php
+        actions APP/MODULE
+
+        // go to the apps/APP/templates/TEMPLATE.php
+        view APP/global/TEMPLATE
+
+        // go to the apps/APP/modules/MODULE/templates/TEMPLATESuccess.php
+        view APP/MODULE/TEMPLATE
+
+        // go to the apps/APP/templates/_PARTIAL.php
+        partial APP/global/PARTIAL
+
+        // go to the apps/APP/modules/MODULE/templates/_PARTIAL.php
+        partial APP/MODULE/PARTIAL
+
+        // go to the lib/form/FORMForm.class.php
+        form FORM
+
+        // go to the config/CONFIG.yml
+        config CONFIG.yml
+
+        // go to the apps/APP/config/CONFIG.yml
+        config APP/CONFIG
+
+        // go to the apps/APP/modules/MODULE/config/CONFIG.yml
+        config APP/MODULE/CONFIG
+
+        // go to the lib/model/doctrine/MODEL.class.php
+        dmodel MODEL
+
+        // go to the lib/model/doctrine/MODELTable.class.php
+        dtable MODEL
+
+        // go to the config/doctrine/SCHEMA.yml
+        dschema SCHEMA
+
 Credits
 -------
 Thanks for the work of 'Dr Nic' from the rails community. Without his work on the rails bundle I still wouldn't know how to create a bundle. Also many thanks to
 'meandmymonkey' from the symfony community. He created the images which you can see in the html popups of the symfony commands. Big thanks to user 'everzet'.
-He improved the html output windows and added the dialogs to the commands. And last but not least many thanks to 'fabpot'. He created the first version of the bundle.
+He improved the html output windows, added the dialogs to the commands, many snippets & created GoTo action. And last but not least many thanks to 'fabpot'. He created the first version of the bundle.
