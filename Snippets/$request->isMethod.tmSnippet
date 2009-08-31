@@ -3,17 +3,14 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>id:
-	type:           integer
-	primary:        true
-	autoincrement:  true$0</string>
+	<string>\$request-&gt;isMethod('${1:post}')$0</string>
 	<key>name</key>
-	<string>id (Doctrine Schema)</string>
+	<string>$request-&gt;isMethod</string>
 	<key>scope</key>
-	<string>source.yaml</string>
+	<string>source.php</string>
 	<key>tabTrigger</key>
-	<string>did</string>
+	<string>rim</string>
 	<key>uuid</key>
-	<string>24028939-0CF8-4566-9164-AD6FD3DEB339</string>
+	<string>5421F325-33F6-49A4-B335-E472BBF0EBF0</string>
 </dict>
 </plist>

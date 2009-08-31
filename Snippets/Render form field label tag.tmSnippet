@@ -3,17 +3,14 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>id:
-	type:           integer
-	primary:        true
-	autoincrement:  true$0</string>
+	<string>&lt;?php echo \$${1:form}['${2:field}']-&gt;renderLabel($3)$0 ?&gt;</string>
 	<key>name</key>
-	<string>id (Doctrine Schema)</string>
+	<string>Render form field label tag</string>
 	<key>scope</key>
-	<string>source.yaml</string>
+	<string>text.html</string>
 	<key>tabTrigger</key>
-	<string>did</string>
+	<string>tffrl</string>
 	<key>uuid</key>
-	<string>24028939-0CF8-4566-9164-AD6FD3DEB339</string>
+	<string>4FA1AED0-1BD8-4F4A-B75A-0B7EE7AD23ED</string>
 </dict>
 </plist>

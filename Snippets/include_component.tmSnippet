@@ -3,17 +3,14 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>id:
-	type:           integer
-	primary:        true
-	autoincrement:  true$0</string>
+	<string>&lt;?php echo include_component('${1:module}', '${2:component}'${3:, array($0)}); ?&gt;</string>
 	<key>name</key>
-	<string>id (Doctrine Schema)</string>
+	<string>include_component</string>
 	<key>scope</key>
-	<string>source.yaml</string>
+	<string>text.html</string>
 	<key>tabTrigger</key>
-	<string>did</string>
+	<string>ic</string>
 	<key>uuid</key>
-	<string>24028939-0CF8-4566-9164-AD6FD3DEB339</string>
+	<string>DFDDB54A-50F2-4B1E-BC18-551BA6C36306</string>
 </dict>
 </plist>

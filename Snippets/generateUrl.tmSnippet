@@ -3,17 +3,14 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>id:
-	type:           integer
-	primary:        true
-	autoincrement:  true$0</string>
+	<string>\$this-&gt;generateUrl('${1:route}'${2:, ${3:array()}})$0</string>
 	<key>name</key>
-	<string>id (Doctrine Schema)</string>
+	<string>generateUrl</string>
 	<key>scope</key>
-	<string>source.yaml</string>
+	<string>source.php</string>
 	<key>tabTrigger</key>
-	<string>did</string>
+	<string>gurl</string>
 	<key>uuid</key>
-	<string>24028939-0CF8-4566-9164-AD6FD3DEB339</string>
+	<string>6459FAE5-48E8-47F0-8DF4-0DDA4562EB69</string>
 </dict>
 </plist>

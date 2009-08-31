@@ -3,17 +3,14 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>id:
-	type:           integer
-	primary:        true
-	autoincrement:  true$0</string>
+	<string>\$this-&gt;${1:var} = $0</string>
 	<key>name</key>
-	<string>id (Doctrine Schema)</string>
+	<string>$this-&gt;var</string>
 	<key>scope</key>
-	<string>source.yaml</string>
+	<string>source.php</string>
 	<key>tabTrigger</key>
-	<string>did</string>
+	<string>tvar</string>
 	<key>uuid</key>
-	<string>24028939-0CF8-4566-9164-AD6FD3DEB339</string>
+	<string>94ACDBFE-F61B-4C0C-BA27-2F12199F6517</string>
 </dict>
 </plist>

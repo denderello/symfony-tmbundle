@@ -3,17 +3,14 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>id:
-	type:           integer
-	primary:        true
-	autoincrement:  true$0</string>
+	<string>\$this-&gt;validatorSchema['${1:field}'] = $2;$0</string>
 	<key>name</key>
-	<string>id (Doctrine Schema)</string>
+	<string>access validator in form</string>
 	<key>scope</key>
-	<string>source.yaml</string>
+	<string>source.php</string>
 	<key>tabTrigger</key>
-	<string>did</string>
+	<string>fvsv</string>
 	<key>uuid</key>
-	<string>24028939-0CF8-4566-9164-AD6FD3DEB339</string>
+	<string>B545FF58-B34A-495B-BAEE-D2CC068FDE26</string>
 </dict>
 </plist>

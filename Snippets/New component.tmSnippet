@@ -3,17 +3,20 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>id:
-	type:           integer
-	primary:        true
-	autoincrement:  true$0</string>
+	<string>/**
+ * Executes ${1:index} component
+ */
+public function execute${1/(.)(.*)/\u$1\L$2\E/}()
+{
+	${0://code}
+}</string>
 	<key>name</key>
-	<string>id (Doctrine Schema)</string>
+	<string>New component</string>
 	<key>scope</key>
-	<string>source.yaml</string>
+	<string>source.php</string>
 	<key>tabTrigger</key>
-	<string>did</string>
+	<string>cexe</string>
 	<key>uuid</key>
-	<string>24028939-0CF8-4566-9164-AD6FD3DEB339</string>
+	<string>B158B63C-D2AB-4A68-9314-5FA0D352E4A5</string>
 </dict>
 </plist>

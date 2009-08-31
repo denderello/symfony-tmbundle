@@ -3,17 +3,14 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>id:
-	type:           integer
-	primary:        true
-	autoincrement:  true$0</string>
+	<string>&lt;?php echo form_tag_for(${1:\$form}, '${2:route}') ?&gt;$0</string>
 	<key>name</key>
-	<string>id (Doctrine Schema)</string>
+	<string>Form tag</string>
 	<key>scope</key>
-	<string>source.yaml</string>
+	<string>text.html</string>
 	<key>tabTrigger</key>
-	<string>did</string>
+	<string>tft</string>
 	<key>uuid</key>
-	<string>24028939-0CF8-4566-9164-AD6FD3DEB339</string>
+	<string>23631967-0650-412C-B9EF-294AC831C0EE</string>
 </dict>
 </plist>

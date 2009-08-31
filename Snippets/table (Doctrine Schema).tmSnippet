@@ -6,15 +6,15 @@
 	<string>${1:tableName}:${2:
 	actAs:${3:	[${4:Timestampable}]}}
 	columns:
-		$0
+		$0${5:
 	relations:
-		</string>
+		$6}</string>
 	<key>name</key>
 	<string>table (Doctrine Schema)</string>
 	<key>scope</key>
 	<string>source.yaml</string>
 	<key>tabTrigger</key>
-	<string>tbl</string>
+	<string>dtbl</string>
 	<key>uuid</key>
 	<string>8CFD4C82-2C60-4F01-97EB-AE83D1BA2DA1</string>
 </dict>

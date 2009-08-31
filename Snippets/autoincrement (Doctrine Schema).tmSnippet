@@ -9,7 +9,7 @@
 	<key>scope</key>
 	<string>source.yaml</string>
 	<key>tabTrigger</key>
-	<string>inc</string>
+	<string>dinc</string>
 	<key>uuid</key>
 	<string>C76F4A5A-A281-4988-9354-6F118CA0E9E6</string>
 </dict>

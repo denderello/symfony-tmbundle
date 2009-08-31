@@ -5,8 +5,19 @@
 	<key>beforeRunningCommand</key>
 	<string>nop</string>
 	<key>command</key>
-	<string>RUBYLIB="$TM_BUNDLE_SUPPORT/lib:$RUBYLIB"
-"${TM_RUBY:=ruby}" -- "${TM_BUNDLE_SUPPORT}/bin/symfony_navigator.rb"</string>
+	<string>cd $TM_PROJECT_DIRECTORY
+
+command=$(CocoaDialog inputbox --title "Goto" \
+	--informative-text "Enter goto command:" \
+	--button1 "Okay" --button2 "Cancel")
+if [[ $(head -n1 &lt;&lt;&lt;"$app") == "2" ]]; then
+	echo "&lt;script type="text/javascript"&gt;window.close()&lt;/script&gt;"
+	exit
+fi
+command=$(tail -n1 &lt;&lt;&lt;"$command")
+
+RUBYLIB="$TM_BUNDLE_SUPPORT/lib:$RUBYLIB"
+"${TM_RUBY:=ruby}" -- "${TM_BUNDLE_SUPPORT}/bin/symfony_navigator.rb" $command</string>
 	<key>fallbackInput</key>
 	<string>line</string>
 	<key>input</key>

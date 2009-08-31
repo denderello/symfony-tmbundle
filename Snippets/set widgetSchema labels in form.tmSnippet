@@ -3,17 +3,14 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>id:
-	type:           integer
-	primary:        true
-	autoincrement:  true$0</string>
+	<string>\$this-&gt;widgetSchema-&gt;setLabels(array($0));</string>
 	<key>name</key>
-	<string>id (Doctrine Schema)</string>
+	<string>set widgetSchema labels in form</string>
 	<key>scope</key>
-	<string>source.yaml</string>
+	<string>source.php</string>
 	<key>tabTrigger</key>
-	<string>did</string>
+	<string>fwsl</string>
 	<key>uuid</key>
-	<string>24028939-0CF8-4566-9164-AD6FD3DEB339</string>
+	<string>B5EAC35C-26EE-4BD3-8AD4-41E652A79844</string>
 </dict>
 </plist>

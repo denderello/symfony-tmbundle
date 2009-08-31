@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>beforeRunningCommand</key>
+	<string>nop</string>
+	<key>command</key>
+	<string>cd $TM_PROJECT_DIRECTORY
+
+app=$(CocoaDialog inputbox --title "Generate admin" \
+	--informative-text "Enter application name:" \
+	--button1 "Okay" --button2 "Cancel")
+if [[ $(head -n1 &lt;&lt;&lt;"$app") == "2" ]]; then
+	echo "&lt;script type="text/javascript"&gt;window.close()&lt;/script&gt;"
+	exit
+fi
+app=$(tail -n1 &lt;&lt;&lt;"$app")
+
+module=$(CocoaDialog inputbox --title "Generate admin" \
+	--informative-text "Enter module name:" \
+	--button1 "Okay" --button2 "Cancel")
+if [[ $(head -n1 &lt;&lt;&lt;"$model") == "2" ]]; then
+	echo "&lt;script type="text/javascript"&gt;window.close()&lt;/script&gt;"
+	exit
+fi
+module=$(tail -n1 &lt;&lt;&lt;"$module")
+
+model=$(CocoaDialog inputbox --title "Generate admin" \
+	--informative-text "Enter model name:" \
+	--button1 "Okay" --button2 "Cancel")
+if [[ $(head -n1 &lt;&lt;&lt;"$model") == "2" ]]; then
+	echo "&lt;script type="text/javascript"&gt;window.close()&lt;/script&gt;"
+	exit
+fi
+model=$(tail -n1 &lt;&lt;&lt;"$model")
+
+RUBYLIB="$TM_BUNDLE_SUPPORT/lib:$RUBYLIB"
+"${TM_RUBY:=ruby}" -- "${TM_BUNDLE_SUPPORT}/bin/symfony_cli_helper.rb" doctrine:generate-module $app $module $model
+
+rescan_project</string>
+	<key>input</key>
+	<string>none</string>
+	<key>keyEquivalent</key>
+	<string>~d</string>
+	<key>name</key>
+	<string>doctrine:generate-module</string>
+	<key>output</key>
+	<string>showAsHTML</string>
+	<key>scope</key>
+	<string>source.php, text.html, source.yaml</string>
+	<key>uuid</key>
+	<string>1C008381-6B81-43B5-9049-830AEC336777</string>
+</dict>
+</plist>

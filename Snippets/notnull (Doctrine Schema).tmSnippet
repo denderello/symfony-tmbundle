@@ -9,7 +9,7 @@
 	<key>scope</key>
 	<string>source.yaml</string>
 	<key>tabTrigger</key>
-	<string>nnull</string>
+	<string>dnull</string>
 	<key>uuid</key>
 	<string>A6355942-6201-42DD-9C8F-1C7C8476A688</string>
 </dict>

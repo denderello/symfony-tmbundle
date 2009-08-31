@@ -3,19 +3,18 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>${1:relationName}:
+	<string>${1:foreignName}:
 	class:          ${2:foreignClass}
 	local:          ${3:localColumnName}
-	foreign:        ${4:foreignColumnName}${5:
-	refClass:       ${6:referenceClass}}
-	foreignAlias:   ${7:alias}$0</string>
+	foreign:        ${4:foreignColumnName}
+</string>
 	<key>name</key>
-	<string>full relation definition (Doctrine Schema)</string>
+	<string>foreign relation definition (Doctrine Schema) copy</string>
 	<key>scope</key>
 	<string>source.yaml</string>
 	<key>tabTrigger</key>
-	<string>rel</string>
+	<string>dfrel</string>
 	<key>uuid</key>
-	<string>03E0E328-4BA2-4EBD-A923-13702D12E476</string>
+	<string>A4073250-6A19-42EA-92D7-2A31823C741F</string>
 </dict>
 </plist>

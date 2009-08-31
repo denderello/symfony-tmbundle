@@ -10,7 +10,7 @@
 	<key>scope</key>
 	<string>source.yaml</string>
 	<key>tabTrigger</key>
-	<string>col</string>
+	<string>dcol</string>
 	<key>uuid</key>
 	<string>DB7B01E8-57E4-4F35-B2C8-111797BBF082</string>
 </dict>

@@ -9,7 +9,7 @@
 	<key>scope</key>
 	<string>source.yaml</string>
 	<key>tabTrigger</key>
-	<string>uni</string>
+	<string>duni</string>
 	<key>uuid</key>
 	<string>CFBAB505-4A23-4A21-B231-89E4841E01E6</string>
 </dict>

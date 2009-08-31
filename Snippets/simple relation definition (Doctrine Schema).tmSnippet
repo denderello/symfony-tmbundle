@@ -5,13 +5,14 @@
 	<key>content</key>
 	<string>${1:foreignClass}:
 	local:          ${2:localColumnName}${3:
-	onDelete:       ${4:CASCADE}}$0</string>
+	onDelete:       ${4:CASCADE}}$0
+</string>
 	<key>name</key>
-	<string>simple relation definition (Doctrine Schema)</string>
+	<string>local relation definition (Doctrine Schema)</string>
 	<key>scope</key>
 	<string>source.yaml</string>
 	<key>tabTrigger</key>
-	<string>srel</string>
+	<string>dlrel</string>
 	<key>uuid</key>
 	<string>7FE3085E-5701-493D-9B65-4255B4A4B093</string>
 </dict>
