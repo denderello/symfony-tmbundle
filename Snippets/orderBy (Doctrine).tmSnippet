@@ -9,7 +9,7 @@
 	<key>scope</key>
 	<string>source.php</string>
 	<key>tabTrigger</key>
-	<string>order</string>
+	<string>dorder</string>
 	<key>uuid</key>
 	<string>132213C2-3927-4DEA-A1E8-328D23A818A7</string>
 </dict>
