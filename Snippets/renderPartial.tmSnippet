@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>return \$this-&gt;renderPartial('${1:partial}'${2:, array($0)});</string>
+	<string>return \$this-&gt;renderPartial(${1:'${2:partial}'}${3:, array($0)});</string>
 	<key>name</key>
 	<string>renderPartial</string>
 	<key>scope</key>

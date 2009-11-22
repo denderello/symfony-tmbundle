@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>\$this-&gt;redirect('${1:url}');$0</string>
+	<string>\$this-&gt;redirect(${1:'${2:url}'});$0</string>
 	<key>name</key>
 	<string>redirect</string>
 	<key>scope</key>

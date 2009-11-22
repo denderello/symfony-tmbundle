@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>return \$this-&gt;renderComponent('${1:moduleName}', '${2:componentName}'${3:, array($0)});</string>
+	<string>return \$this-&gt;renderComponent(${1:'${2:module}'}, ${3:'${4:component}'}${5:, array($0)});</string>
 	<key>name</key>
 	<string>renderComponent</string>
 	<key>scope</key>

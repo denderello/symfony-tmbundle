@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>&lt;?php echo url_for('${1:route}${2:?}'${3:, array($0)}) ?&gt;</string>
+	<string>&lt;?php echo url_for(${1:'${2:route}${3:?}'}${4:, array($0)}) ?&gt;</string>
 	<key>name</key>
 	<string>url_for</string>
 	<key>scope</key>

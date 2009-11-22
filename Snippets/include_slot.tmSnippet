@@ -3,8 +3,8 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>&lt;?php if (has_slot('${1:slotName}')): ?&gt;
-	&lt;?php include_slot('$1') ?&gt;
+	<string>&lt;?php if (has_slot(${1:'${2:slot}'})): ?&gt;
+	&lt;?php include_slot($1) ?&gt;
 &lt;?php endif; ?&gt;$0</string>
 	<key>name</key>
 	<string>include_slot</string>

@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>\$request-&gt;getParameter('${1:id}')$0</string>
+	<string>\$request-&gt;getParameter(${1:'${2:id}'})$0</string>
 	<key>name</key>
 	<string>$request-&gt;getParameter</string>
 	<key>scope</key>

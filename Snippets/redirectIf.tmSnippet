@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>\$this-&gt;redirectIf(${1:condition}, '${2:url}');$0</string>
+	<string>\$this-&gt;redirectIf(${1:condition}, ${2:'${3:url}'});$0</string>
 	<key>name</key>
 	<string>redirectIf</string>
 	<key>scope</key>

@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>\$this-&gt;validatorSchema['${1:field}'] = $0;</string>
+	<string>\$this-&gt;validatorSchema[${1:'${2:field}'}] = $0;</string>
 	<key>name</key>
 	<string>access validator in form</string>
 	<key>scope</key>

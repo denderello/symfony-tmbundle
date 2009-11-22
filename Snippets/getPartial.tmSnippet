@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>\$this-&gt;getPartial('${1:partial}'${2:, array($0)})</string>
+	<string>\$this-&gt;getPartial(${1:'${2:partial}'}${3:, array($0)})</string>
 	<key>name</key>
 	<string>getPartial</string>
 	<key>scope</key>

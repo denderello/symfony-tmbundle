@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>\$this-&gt;setTemplate('${1:index}'${2:, ${3:'module'}});$0</string>
+	<string>\$this-&gt;setTemplate(${1:'${2:index}'}${3:, ${4:'module'}});$0</string>
 	<key>name</key>
 	<string>setTemplate</string>
 	<key>scope</key>

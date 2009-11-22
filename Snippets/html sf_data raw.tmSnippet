@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>&lt;?php \$sf_data-&gt;getRaw('${1:id}') ?&gt;$0</string>
+	<string>&lt;?php \$sf_data-&gt;getRaw(${1:'${2:id}'}) ?&gt;$0</string>
 	<key>name</key>
 	<string>html sf_data raw</string>
 	<key>scope</key>

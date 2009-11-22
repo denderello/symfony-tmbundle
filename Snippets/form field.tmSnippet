@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>\$${1:form}['${2:field}']$0</string>
+	<string>\$${1:form}[${2:'${3:field}'}]$0</string>
 	<key>name</key>
 	<string>Form field</string>
 	<key>scope</key>

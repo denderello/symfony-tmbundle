@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>&lt;?php echo \$${1:form}['${2:field}']-&gt;renderLabel($3) ?&gt;$0</string>
+	<string>&lt;?php echo \$${1:form}[{2:'${3:field}'}]-&gt;renderLabel($4) ?&gt;$0</string>
 	<key>name</key>
 	<string>Render form field label tag</string>
 	<key>scope</key>

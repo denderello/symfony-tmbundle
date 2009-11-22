@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>\$this-&gt;generateUrl('${1:route}'${2:, ${3:array($0)}})</string>
+	<string>\$this-&gt;generateUrl(${1:'${2:route}'}${3:, ${4:array($0)}})</string>
 	<key>name</key>
 	<string>generateUrl</string>
 	<key>scope</key>

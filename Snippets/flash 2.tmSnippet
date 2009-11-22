@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>\$this-&gt;getUser()-&gt;setFlash('${1:name}', '${2:value}');$0</string>
+	<string>\$this-&gt;getUser()-&gt;setFlash(${1:'${2:name}'}, ${3:'${4:value}'});$0</string>
 	<key>name</key>
 	<string>flash</string>
 	<key>scope</key>

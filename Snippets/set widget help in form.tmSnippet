@@ -3,14 +3,14 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>&lt;?php echo form_tag_for(${1:\$form}, ${2:'${3:route}'}) ?&gt;$0</string>
+	<string>\$this-&gt;widgetSchema[${1:'${2:field}'}]-&gt;setHelp(${3:'${4:help}'});$0</string>
 	<key>name</key>
-	<string>Form tag</string>
+	<string>set widget help in form</string>
 	<key>scope</key>
-	<string>text.html</string>
+	<string>source.php</string>
 	<key>tabTrigger</key>
-	<string>tft</string>
+	<string>fwswh</string>
 	<key>uuid</key>
-	<string>23631967-0650-412C-B9EF-294AC831C0EE</string>
+	<string>FD2FB1A9-CDEC-4F2D-9EA2-39D5D339A1DA</string>
 </dict>
 </plist>

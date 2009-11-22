@@ -3,8 +3,8 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>&lt;?php if (\$sf_user-&gt;hasFlash('${1:flashName}')): ?&gt;
-	&lt;?php echo \$sf_user-&gt;getFlash('$1') ?&gt;
+	<string>&lt;?php if (\$sf_user-&gt;hasFlash(${1:'${2:flashName}'})): ?&gt;
+	&lt;?php echo \$sf_user-&gt;getFlash($1) ?&gt;
 &lt;?php endif; ?&gt;</string>
 	<key>name</key>
 	<string>flash</string>

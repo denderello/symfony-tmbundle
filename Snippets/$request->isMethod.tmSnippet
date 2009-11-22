@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>\$request-&gt;isMethod('${1:post}')$0</string>
+	<string>\$request-&gt;isMethod(${1:'${2:post}'})$0</string>
 	<key>name</key>
 	<string>$request-&gt;isMethod</string>
 	<key>scope</key>

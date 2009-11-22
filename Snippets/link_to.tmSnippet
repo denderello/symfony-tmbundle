@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>&lt;?php echo link_to('${1:link_name}', '${2:route}${3:?}'${4:, array($0)}) ?&gt;</string>
+	<string>&lt;?php echo link_to(${1:'${2:title}'}, ${3:'${4:route}${5:?}'}${4:, array($0)}) ?&gt;</string>
 	<key>name</key>
 	<string>link_to</string>
 	<key>scope</key>

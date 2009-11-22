@@ -3,14 +3,14 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>&lt;?php echo form_tag_for(${1:\$form}, ${2:'${3:route}'}) ?&gt;$0</string>
+	<string>\$this-&gt;getObject()$0</string>
 	<key>name</key>
-	<string>Form tag</string>
+	<string>$this-&gt;getObject</string>
 	<key>scope</key>
-	<string>text.html</string>
+	<string>source.php</string>
 	<key>tabTrigger</key>
-	<string>tft</string>
+	<string>fgo</string>
 	<key>uuid</key>
-	<string>23631967-0650-412C-B9EF-294AC831C0EE</string>
+	<string>1168D0C5-11D2-4501-AD25-BE740AD889CD</string>
 </dict>
 </plist>

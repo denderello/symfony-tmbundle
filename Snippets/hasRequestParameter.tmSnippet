@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>\$this-&gt;hasRequestParameter('${1:id}')$0</string>
+	<string>\$this-&gt;hasRequestParameter(${1:'${2:id}'})$0</string>
 	<key>name</key>
 	<string>hasRequestParameter</string>
 	<key>scope</key>
