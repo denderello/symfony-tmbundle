@@ -3,14 +3,14 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>\$this-&gt;widgetSchema[${1:'${2:field}'}] = $0;</string>
+	<string>new ${1:sfWidgetForm${2:Name}}${3:(${4:array($5)})}$0</string>
 	<key>name</key>
-	<string>set widget in form</string>
+	<string>new sfWidgetForm</string>
 	<key>scope</key>
 	<string>source.php</string>
 	<key>tabTrigger</key>
-	<string>fwsw</string>
+	<string>fnw</string>
 	<key>uuid</key>
-	<string>6EBA211B-A8F8-46AE-984D-E2B4950CE9CF</string>
+	<string>BB18BD62-D7FF-4088-95BA-42E34CD9205F</string>
 </dict>
 </plist>

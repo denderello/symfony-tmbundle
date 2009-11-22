@@ -3,14 +3,14 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>\$this-&gt;widgetSchema[${1:'${2:field}'}] = $0;</string>
+	<string>\$this-&gt;embededForms[${1:'${2:name}'}]$0</string>
 	<key>name</key>
-	<string>set widget in form</string>
+	<string>access embededForm in form</string>
 	<key>scope</key>
 	<string>source.php</string>
 	<key>tabTrigger</key>
-	<string>fwsw</string>
+	<string>fembf</string>
 	<key>uuid</key>
-	<string>6EBA211B-A8F8-46AE-984D-E2B4950CE9CF</string>
+	<string>F36C1DE5-5D5E-498B-B612-13CBF85C6424</string>
 </dict>
 </plist>
