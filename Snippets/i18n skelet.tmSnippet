@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>&lt;?xml version="1.0" encoding="UTF-8" ?&gt;
+&lt;!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN" "http://www.oasis-open.org/committees/xliff/documents/xliff.dtd" &gt;
+&lt;xliff version="1.0"&gt;
+  &lt;file original="global" source-language="${1:en}" datatype="plaintext"&gt;
+    &lt;header /&gt;
+    &lt;body&gt;
+      $0
+    &lt;/body&gt;
+  &lt;/file&gt;
+&lt;/xliff&gt;</string>
+	<key>name</key>
+	<string>i18n skelet</string>
+	<key>scope</key>
+	<string>text.xml</string>
+	<key>tabTrigger</key>
+	<string>i18n</string>
+	<key>uuid</key>
+	<string>F90B560F-E0DD-4091-AD40-ED5EB18F4E49</string>
+</dict>
+</plist>

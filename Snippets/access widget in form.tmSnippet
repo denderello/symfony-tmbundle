@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>\$this-&gt;widgetSchema['${1:field}'] = $2;$0</string>
+	<string>\$this-&gt;widgetSchema['${1:field}'] = $0;</string>
 	<key>name</key>
 	<string>access widget in form</string>
 	<key>scope</key>

@@ -3,16 +3,17 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>&lt;?php if (has_slot('${1:slotName}')): ?&gt;
-	&lt;?php include_slot('$1') ?&gt;
-&lt;?php endif; ?&gt;$0</string>
+	<string>&lt;trans-unit&gt;
+	&lt;source&gt;$1&lt;/source&gt;
+	&lt;target&gt;$2&lt;/target&gt;
+&lt;/trans-unit&gt;$0</string>
 	<key>name</key>
-	<string>include_slot</string>
+	<string>i18n trans-unit</string>
 	<key>scope</key>
-	<string>text.html</string>
+	<string>text.xml</string>
 	<key>tabTrigger</key>
-	<string>islot</string>
+	<string>tunit</string>
 	<key>uuid</key>
-	<string>F4A6EB2C-15F5-450E-8EC4-D5D08DE6BC5C</string>
+	<string>510CC018-877B-42A3-91F8-D008C13B5192</string>
 </dict>
 </plist>

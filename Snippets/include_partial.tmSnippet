@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>&lt;?php echo include_partial('${1:module/partial}'${2:, array($0)}); ?&gt;</string>
+	<string>&lt;?php include_partial('${1:module/partial}'${2:, array($0)}); ?&gt;</string>
 	<key>name</key>
 	<string>include_partial</string>
 	<key>scope</key>

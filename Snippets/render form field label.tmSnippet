@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>\$${1:form}['${2:field}']-&gt;renderLabel($3)$0</string>
+	<string>\$${1:form}['${2:field}']-&gt;renderLabel($3);$0</string>
 	<key>name</key>
 	<string>Render form field label</string>
 	<key>scope</key>

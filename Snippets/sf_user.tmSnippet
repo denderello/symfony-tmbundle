@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>\$sf_user-&gt;</string>
+	<string>\$sf_user-&gt;$0</string>
 	<key>name</key>
 	<string>sf_user</string>
 	<key>scope</key>

@@ -3,16 +3,14 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>&lt;?php if (has_slot('${1:slotName}')): ?&gt;
-	&lt;?php include_slot('$1') ?&gt;
-&lt;?php endif; ?&gt;$0</string>
+	<string>\$this-&gt;getComponent('${1:moduleName}', '${2:componentName}'${3:, array($0)})</string>
 	<key>name</key>
-	<string>include_slot</string>
+	<string>getComponent</string>
 	<key>scope</key>
-	<string>text.html</string>
+	<string>source.php</string>
 	<key>tabTrigger</key>
-	<string>islot</string>
+	<string>gc</string>
 	<key>uuid</key>
-	<string>F4A6EB2C-15F5-450E-8EC4-D5D08DE6BC5C</string>
+	<string>D15DB004-03E2-4939-8573-C926476A5E18</string>
 </dict>
 </plist>

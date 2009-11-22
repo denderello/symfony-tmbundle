@@ -3,16 +3,14 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>&lt;?php if (has_slot('${1:slotName}')): ?&gt;
-	&lt;?php include_slot('$1') ?&gt;
-&lt;?php endif; ?&gt;$0</string>
+	<string>&lt;?php \$sf_data-&gt;getRaw('${1:id}') ?&gt;$0</string>
 	<key>name</key>
-	<string>include_slot</string>
+	<string>html sf_data raw</string>
 	<key>scope</key>
 	<string>text.html</string>
 	<key>tabTrigger</key>
-	<string>islot</string>
+	<string>tgdr</string>
 	<key>uuid</key>
-	<string>F4A6EB2C-15F5-450E-8EC4-D5D08DE6BC5C</string>
+	<string>D61609CF-B6F6-445C-9621-0C424DA64967</string>
 </dict>
 </plist>

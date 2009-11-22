@@ -3,14 +3,20 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>\$this-&gt;generateUrl('${1:route}'${2:, ${3:array($0)}})</string>
+	<string>/**
+ * Executes an application defined process immediately after execution of this sfAction object.
+ */
+public function postExecute()
+{
+	${0://code}
+}</string>
 	<key>name</key>
-	<string>generateUrl</string>
+	<string>postExecute action</string>
 	<key>scope</key>
 	<string>source.php</string>
 	<key>tabTrigger</key>
-	<string>gurl</string>
+	<string>postexe</string>
 	<key>uuid</key>
-	<string>6459FAE5-48E8-47F0-8DF4-0DDA4562EB69</string>
+	<string>6D8C06D8-4E28-4424-8067-A9EFFB3423B2</string>
 </dict>
 </plist>

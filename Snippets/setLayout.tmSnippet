@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>\$this-&gt;setLayout(${1:false});</string>
+	<string>\$this-&gt;setLayout(${1:false});$0</string>
 	<key>name</key>
 	<string>setLayout</string>
 	<key>scope</key>

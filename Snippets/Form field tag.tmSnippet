@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>&lt;?php echo \$${1:form}['${2:field}']$0 ?&gt;</string>
+	<string>&lt;?php echo \$${1:form}['${2:field}'] ?&gt;$0</string>
 	<key>name</key>
 	<string>Form field tag</string>
 	<key>scope</key>
