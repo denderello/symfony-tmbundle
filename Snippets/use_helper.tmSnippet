@@ -3,14 +3,14 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>\$this-&gt;embeddedForms[${1:'${2:name}'}]-&gt;object$0</string>
+	<string>&lt;?php use_helper(${1:'${2:Helper}'}) ?&gt;$0</string>
 	<key>name</key>
-	<string>embeddedForm-&gt;object in form</string>
+	<string>use_helper</string>
 	<key>scope</key>
-	<string>source.php</string>
+	<string>text.html</string>
 	<key>tabTrigger</key>
-	<string>fembfo</string>
+	<string>uh</string>
 	<key>uuid</key>
-	<string>3768E5C2-A526-4C38-94A8-7EC37832D7EB</string>
+	<string>D8BF513E-1A10-4C01-8168-5903196CB5AC</string>
 </dict>
 </plist>

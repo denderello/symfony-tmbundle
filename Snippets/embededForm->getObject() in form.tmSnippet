@@ -3,9 +3,9 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>\$this-&gt;embededForms[${1:'${2:name}'}]-&gt;getObject()$0</string>
+	<string>\$this-&gt;embeddedForms[${1:'${2:name}'}]-&gt;getObject()$0</string>
 	<key>name</key>
-	<string>embededForm-&gt;getObject() in form</string>
+	<string>embeddedForm-&gt;getObject() in form</string>
 	<key>scope</key>
 	<string>source.php</string>
 	<key>tabTrigger</key>

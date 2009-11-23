@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>\$${1:${2:name}Form} = new ${3:sfClass}Form${4:array($5)};$0</string>
+	<string>\$${1:${2:name}Form} = new ${3:sfClass}Form${4:(array($5))};$0</string>
 	<key>name</key>
 	<string>new Form</string>
 	<key>scope</key>
