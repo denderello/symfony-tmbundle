@@ -3,13 +3,13 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>sfConfig::get(${1:'${2:sf_${3:name}}'}${4:, ${5:null}})$0</string>
+	<string>sfConfig::get(${1:'${2:app_${3:name}}'}${4:, ${5:null}})$0</string>
 	<key>name</key>
 	<string>sfConfig</string>
 	<key>scope</key>
 	<string>source.php, text.html</string>
 	<key>tabTrigger</key>
-	<string>config</string>
+	<string>conf</string>
 	<key>uuid</key>
 	<string>05F24DFE-FFFC-4FC4-B2C2-E9D943F813E4</string>
 </dict>
