@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>\$this-&gt;widgetSchema[${1:'${2:field}'}] = new sfWidgetFormInputFileEditable(array(
+	'file_src'      =&gt; '/uploads/${3:images}/' . \$this-&gt;getObject()-&gt;get${4:Image}(),${5:
+	'is_image'      =&gt; true,}
+	'edit_mode'     =&gt; ${6:\$this-&gt;getObject()-&gt;get$4()}
+));
+\$this-&gt;validatorSchema[$1] = new sfValidatorFile(array(
+	'required'      =&gt; ${7:false},
+	'path'          =&gt; sfConfig::get('sf_upload_dir') . '/$3/'
+));</string>
+	<key>name</key>
+	<string>new FormInputFile</string>
+	<key>scope</key>
+	<string>source.php</string>
+	<key>tabTrigger</key>
+	<string>fwswnf</string>
+	<key>uuid</key>
+	<string>0841BCDB-4194-4519-8B2A-23DB1538A370</string>
+</dict>
+</plist>

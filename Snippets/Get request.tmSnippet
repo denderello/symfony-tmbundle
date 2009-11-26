@@ -3,14 +3,14 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>&lt;?php include_component(${1:'${2:module}'}, ${3:'${4:component}'}${5:, array($0)}) ?&gt;</string>
+	<string>\$this-&gt;getRequest()$0</string>
 	<key>name</key>
-	<string>include_component</string>
+	<string>Get request</string>
 	<key>scope</key>
-	<string>text.html</string>
+	<string>source.php</string>
 	<key>tabTrigger</key>
-	<string>ic</string>
+	<string>gr</string>
 	<key>uuid</key>
-	<string>DFDDB54A-50F2-4B1E-BC18-551BA6C36306</string>
+	<string>1031A046-EACB-4F77-8641-2981E538078A</string>
 </dict>
 </plist>
