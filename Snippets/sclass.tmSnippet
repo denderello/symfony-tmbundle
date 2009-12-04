@@ -5,21 +5,21 @@
 	<key>content</key>
 	<string>/*
  * This file is part of the $1.
- * (c) ${2:2009} ${3:${4:Name Surname} &lt;${5:email@address.com}&gt;}
+ * (c) ${2:2009} ${3:${TM_ORGANIZATION_NAME}}
  *
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
  */
 
 /**
- * ${6:${TM_FILENAME/(\w*).class.php/$1/}} ${7:does things}.
+ * ${4:${TM_FILENAME/(\w*)\.class\.php/$1/}} ${5:does things}.
  *
- * @package    ${8:$1}
- * @subpackage ${9:subpackage}
+ * @package    ${6:$1}
+ * @subpackage ${7:subpackage}
  * @author     $3
- * @version    ${10:1.0.0}
+ * @version    ${8:1.0.0}
  */
-${11:abstract }class $6${12: extends ${13:sfBaseClass}}
+${9:abstract }class $4${10: extends ${11:sfBaseClass}}
 {
 	$0
 }</string>
